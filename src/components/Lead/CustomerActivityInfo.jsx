@@ -91,6 +91,7 @@ function CustomerActivityInfo(){
                             <div className="flex flex-wrap justify-between my-2">
                                 <div className="w-[48%]">
                                 <label htmlFor="teamMember" className="font-bold text-sm">Add Team Member</label>
+                                <div className="w-full flex justify-between border border-gray-300 text-sm p-2 rounded-md my-2 ">
                                 <input
                                     type="text"
                                     id="teamMember"
@@ -98,12 +99,15 @@ function CustomerActivityInfo(){
                                     value={formData.teamMember}
                                     onChange={handleChange}
                                     placeholder="Select Team Members"
-                                    className="w-full border border-gray-300 text-sm p-2 rounded-md my-2 focus:outline-none"
+                                    className="w-full focus:outline-none"
                                 />
+                                 <i className="bi bi-search"></i>
+                                 </div>
                                 </div>
 
                                 <div className="w-[48%]">
                                 <label htmlFor="contact" className="font-bold text-sm">Add Contact</label>
+                                <div className="w-full flex justify-between border border-gray-300 text-sm p-2 rounded-md my-2 ">
                                 <input
                                     type="text"
                                     id="contact"
@@ -111,8 +115,10 @@ function CustomerActivityInfo(){
                                     value={formData.contact}
                                     onChange={handleChange}
                                     placeholder="Select Contacts"
-                                    className="w-full border border-gray-300 text-sm p-2 rounded-md my-2 focus:outline-none"
+                                    className="w-full focus:outline-none"
                                 />
+                                <i className="bi bi-search"></i>
+                                </div>
                                 </div>
                             </div>
 
