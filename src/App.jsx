@@ -8,6 +8,7 @@ const MeetView = lazy (()=> import (  "./view/MeetView"));
 const ProfileView = lazy (()=> import (  "./view/ProfileView"));
 const TeamView = lazy (()=> import (  "./view/TeamView"));
 const WorkView = lazy (()=> import ( "./view/WorkView"));
+import Error from "./components/Error";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ export const myRoutes = createBrowserRouter([
   {
     path:"/",
     element : <App/>,
+    errorElement : <Error/>,
     children: [  
       {
         path: "/",
