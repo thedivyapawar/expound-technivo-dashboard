@@ -27,11 +27,11 @@ function PersonalInfo(){
             </div>
             <div className="flex w-[100%] my-2 py-2 gap-4 flex-wrap px-4 text-gray-500 font-bold text-sm border-y-2">
                 <span className="text-primary">Basic Details
-                    <sup><span className="p-1 rounded-full bg-red-600 text-white">10</span></sup>
+                    <sup className="hidden md:inline"><span className="p-1 rounded-full bg-red-600 text-white">10</span></sup>
                 </span>
                 <span >Account Details</span>
                 <span>Lead Details
-                <sup><span className="px-2 py-1 rounded-full bg-red-600 text-white">8</span></sup>
+                <sup className="hidden md:inline"><span className="px-2 py-1 rounded-full bg-red-600 text-white">8</span></sup>
                 </span>
                 <span>Team</span>
                 <span>Other Contacts</span>

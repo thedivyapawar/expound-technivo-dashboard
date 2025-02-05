@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 const Navbar = lazy (()=> import ( "./components/Navbar"));
-import { createBrowserRouter, Navigate, Outlet } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
 const LeadView = lazy (()=> import (  "./view/LeadView"));
 const HomeView = lazy (()=> import (  "./view/HomeView"));
 const CompanyView = lazy (()=> import (  "./view/CompanyView"));
@@ -25,7 +25,7 @@ export const myRoutes = createBrowserRouter([
     children: [ 
       {
         path : "/",
-        element : <Navigate to="/lead" replace />,
+        element : <Suspense><LeadView/></Suspense>
       },   
       {
         path : "/home",
