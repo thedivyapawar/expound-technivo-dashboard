@@ -125,7 +125,7 @@ function CustomerActivityInfo(){
                                     name="dueDate"
                                     value={formData.dueDate}
                                     onChange={handleChange}
-                                    className="w-full border border-gray-300 text-sm p-2 rounded-md my-2 focus:outline-none"
+                                    className="w-[100%] border border-gray-300 text-sm p-2 rounded-md my-2 focus:outline-none"
                                     required
                                 />
                                 </div>
@@ -138,7 +138,7 @@ function CustomerActivityInfo(){
                                     name="time"
                                     value={formData.time}
                                     onChange={handleChange}
-                                    className="w-full border border-gray-300 text-sm p-2 rounded-md my-2 focus:outline-none text-gray-400"
+                                    className="w-[100%] border border-gray-300 text-sm p-2 rounded-md my-2 focus:outline-none text-gray-400"
                                     required
                                     
                                 />
