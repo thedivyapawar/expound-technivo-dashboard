@@ -23,8 +23,11 @@ Deployment: Vercel
 #Performance Enhancements
 
 1.Lazy Loading: Implemented for faster load times.
+
 2.Code Splitting: Reduces initial bundle size.
+
 3.Efficient State Management: Ensures optimized re-rendering.
+
 4.Tailwind CSS: Provides a lightweight and fast UI framework.
 
 #Live Demo
