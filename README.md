@@ -28,7 +28,7 @@ Deployment: Vercel
 4.Tailwind CSS: Provides a lightweight and fast UI framework.
 
 #Live Demo
-Link:
+Link: https://expound-technivo-dashboard-by-divyapawar.vercel.app/
 
 #Developer Info
 Name: Divya Pawar 
